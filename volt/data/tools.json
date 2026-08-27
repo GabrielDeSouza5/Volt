@@ -1,0 +1,335 @@
+[
+  {
+    "name": "Nmap",
+    "description": "Network discovery and security auditing tool",
+    "category": "Reconnaissance",
+    "command": "nmap",
+    "binary": "nmap",
+    "tags": ["network", "scan", "audit", "discovery"],
+    "documentation": "https://nmap.org/docs.html"
+  },
+  {
+    "name": "Nikto",
+    "description": "Web server scanner which tests for dangerous files/programs, outdated server software, and other problems",
+    "category": "Web Security",
+    "command": "nikto",
+    "binary": "nikto",
+    "tags": ["web", "scanner", "server", "vulnerability"],
+    "documentation": "https://cirt.net/Nikto2"
+  },
+  {
+    "name": "Gobuster",
+    "description": "Directory/File, DNS and VHost busting tool written in Go",
+    "category": "Web Security",
+    "command": "gobuster",
+    "binary": "gobuster",
+    "tags": ["web", "directory", "brute", "dns"],
+    "documentation": "https://github.com/OJ/gobuster"
+  },
+  {
+    "name": "Wireshark",
+    "description": "Network protocol analyzer for network troubleshooting and analysis",
+    "category": "Network",
+    "command": "wireshark",
+    "binary": "wireshark",
+    "tags": ["network", "capture", "analysis", "protocol"],
+    "documentation": "https://www.wireshark.org/docs/"
+  },
+  {
+    "name": "Aircrack-ng",
+    "description": "Network software suite consisting of a detector, packet sniffer, WPA/WPA2 cracker and analysis tool",
+    "category": "Wireless",
+    "command": "aircrack-ng",
+    "binary": "aircrack-ng",
+    "tags": ["wireless", "wifi", "crack", "wpa"],
+    "documentation": "https://www.aircrack-ng.org/doku.php"
+  },
+  {
+    "name": "Hydra",
+    "description": "Fast network logon cracker which supports many different services",
+    "category": "Password Auditing",
+    "command": "hydra",
+    "binary": "hydra",
+    "tags": ["password", "brute", "login", "crack"],
+    "documentation": "https://github.com/vanhauser-thc/thc-hydra"
+  },
+  {
+    "name": "John the Ripper",
+    "description": "Open source password security auditing and password recovery tool",
+    "category": "Password Auditing",
+    "command": "john",
+    "binary": "john",
+    "tags": ["password", "crack", "hash", "audit"],
+    "documentation": "https://www.openwall.com/john/doc/"
+  },
+  {
+    "name": "Metasploit",
+    "description": "Penetration testing framework for developing and executing exploit code against a remote target machine",
+    "category": "Exploitation Labs",
+    "command": "msfconsole",
+    "binary": "msfconsole",
+    "tags": ["exploit", "framework", "penetration", "metasploit"],
+    "documentation": "https://docs.metasploit.com/"
+  },
+  {
+    "name": "Burp Suite",
+    "description": "Integrated platform for performing security testing of web applications",
+    "category": "Web Security",
+    "command": "burpsuite",
+    "binary": "burpsuite",
+    "tags": ["web", "proxy", "testing", "security"],
+    "documentation": "https://portswigger.net/burp/documentation"
+  },
+  {
+    "name": "SQLMap",
+    "description": "Automatic SQL injection and database takeover tool",
+    "category": "Web Security",
+    "command": "sqlmap",
+    "binary": "sqlmap",
+    "tags": ["sql", "injection", "database", "web"],
+    "documentation": "https://sqlmap.org/"
+  },
+  {
+    "name": "Hashcat",
+    "description": "Advanced CPU-based password recovery utility",
+    "category": "Password Auditing",
+    "command": "hashcat",
+    "binary": "hashcat",
+    "tags": ["password", "crack", "hash", "gpu"],
+    "documentation": "https://hashcat.net/wiki/doku.php"
+  },
+  {
+    "name": "Recon-ng",
+    "description": "Full-featured web reconnaissance framework with independent modules and database interaction",
+    "category": "Reconnaissance",
+    "command": "recon-ng",
+    "binary": "recon-ng",
+    "tags": ["recon", "osint", "framework", "reconnaissance"],
+    "documentation": "https://github.com/lanmaster53/recon-ng"
+  },
+  {
+    "name": "Maltego",
+    "description": "Open source intelligence and graphical link analysis tool",
+    "category": "OSINT",
+    "command": "maltego",
+    "binary": "maltego",
+    "tags": ["osint", "graph", "analysis", "intelligence"],
+    "documentation": "https://www.maltego.com/documentation/"
+  },
+  {
+    "name": "Shodan",
+    "description": "Internet-connected device search engine",
+    "category": "OSINT",
+    "command": "shodan",
+    "binary": "shodan",
+    "tags": ["osint", "iot", "search", "internet"],
+    "documentation": "https://shodan.readthedocs.io/en/latest/"
+  },
+  {
+    "name": "Foremost",
+    "description": "Console program to recover files based on their headers, footers, and internal data structures",
+    "category": "Forensics",
+    "command": "foremost",
+    "binary": "foremost",
+    "tags": ["forensics", "recovery", "file", "carving"],
+    "documentation": "https://kali.org/tools/foremost/"
+  },
+  {
+    "name": "Volatility",
+    "description": "Advanced memory forensics framework",
+    "category": "Forensics",
+    "command": "volatility",
+    "binary": "volatility",
+    "tags": ["forensics", "memory", "analysis", "volatility"],
+    "documentation": "https://volatility3.readthedocs.io/"
+  },
+  {
+    "name": "Nuclei",
+    "description": "Fast and customizable vulnerability scanner based on simple YAML-based templates",
+    "category": "Web Security",
+    "command": "nuclei",
+    "binary": "nuclei",
+    "tags": ["vulnerability", "scanner", "web", "template"],
+    "documentation": "https://nuclei.projectdiscovery.io/"
+  },
+  {
+    "name": "Masscan",
+    "description": "TCP port scanner which transmits 10 million packets per second",
+    "category": "Network",
+    "command": "masscan",
+    "binary": "masscan",
+    "tags": ["network", "scan", "port", "fast"],
+    "documentation": "https://github.com/robertdavidgraham/masscan"
+  },
+  {
+    "name": "Responder",
+    "description": "LLMNR, NBT-NS and MDNS poisoner and WPAD spoofing attack tool",
+    "category": "Sniffing & Spoofing",
+    "command": "responder",
+    "binary": "responder",
+    "tags": ["network", "poison", "sniff", "smb"],
+    "documentation": "https://github.com/lgandx/Responder"
+  },
+  {
+    "name": "Setoolkit",
+    "description": "Social-Engineer Toolkit for social engineering penetration testing",
+    "category": "Social Engineering",
+    "command": "setoolkit",
+    "binary": "setoolkit",
+    "tags": ["social", "engineering", "phishing", "attack"],
+    "documentation": "https://github.com/trustedsec/social-engineer-toolkit"
+  },
+  {
+    "name": "Binwalk",
+    "description": "Firmware analysis tool for searching binary files for embedded compressed data and file signatures",
+    "category": "Reverse Engineering",
+    "command": "binwalk",
+    "binary": "binwalk",
+    "tags": ["firmware", "binary", "analysis", "reverse"],
+    "documentation": "https://github.com/ReFirmLabs/binwalk"
+  },
+  {
+    "name": "Ghidra",
+    "description": "Software reverse engineering framework developed by NSA",
+    "category": "Reverse Engineering",
+    "command": "ghidra",
+    "binary": "ghidra",
+    "tags": ["reverse", "engineering", "disassembler", "decompiler"],
+    "documentation": "https://ghidra-sre.org/ghidra_docs/"
+  },
+  {
+    "name": "Feroxbuster",
+    "description": "Fast, simple, recursive content discovery tool written in Rust",
+    "category": "Web Security",
+    "command": "feroxbuster",
+    "binary": "feroxbuster",
+    "tags": ["web", "directory", "brute", "fuzzing"],
+    "documentation": "https://github.com/epi052/feroxbuster"
+  },
+  {
+    "name": "Wfuzz",
+    "description": "Web application fuzzer",
+    "category": "Web Security",
+    "command": "wfuzz",
+    "binary": "wfuzz",
+    "tags": ["web", "fuzzing", "brute", "test"],
+    "documentation": "https://github.com/xmendez/wfuzz"
+  },
+  {
+    "name": "CrackMapExec",
+    "description": "Swiss army knife for pentesting Active Directory/Windows networks",
+    "category": "Post Exploitation",
+    "command": "crackmapexec",
+    "binary": "crackmapexec",
+    "tags": ["active-directory", "windows", "network", "post-exploit"],
+    "documentation": "https://github.com/Penntest-docker/CrackMapExec"
+  },
+  {
+    "name": "Chisel",
+    "description": "Fast TCP/UDP tunnel over HTTP, secured via SSH",
+    "category": "Post Exploitation",
+    "command": "chisel",
+    "binary": "chisel",
+    "tags": ["tunnel", "proxy", "pivot", "network"],
+    "documentation": "https://github.com/jpillora/chisel"
+  },
+  {
+    "name": "Yara",
+    "description": "The pattern matching swiss army knife for malware researchers",
+    "category": "Malware Analysis",
+    "command": "yara",
+    "binary": "yara",
+    "tags": ["malware", "pattern", "detection", "classification"],
+    "documentation": "https://yara.readthedocs.io/en/stable/"
+  },
+  {
+    "name": "Radare2",
+    "description": "Unix-like reverse computing framework and command-line toolset",
+    "category": "Reverse Engineering",
+    "command": "r2",
+    "binary": "r2",
+    "tags": ["reverse", "engineering", "debugger", "disassembler"],
+    "documentation": "https://book.rada.re/"
+  },
+  {
+    "name": "Nbtscan",
+    "description": "Scan for NetBIOS name information on IP networks",
+    "category": "Reconnaissance",
+    "command": "nbtscan",
+    "binary": "nbtscan",
+    "tags": ["network", "netbios", "scan", "windows"],
+    "documentation": "https://github.com/alivefh/nbtscan"
+  },
+  {
+    "name": "Dnsenum",
+    "description": "Perl script that enumerates DNS zones and DNS information",
+    "category": "Reconnaissance",
+    "command": "dnsenum",
+    "binary": "dnsenum",
+    "tags": ["dns", "enum", "recon", "domain"],
+    "documentation": "https://github.com/fwaeyt/dnsenum"
+  },
+  {
+    "name": "WPScan",
+    "description": "WordPress security scanner",
+    "category": "Web Security",
+    "command": "wpscan",
+    "binary": "wpscan",
+    "tags": ["wordpress", "web", "scanner", "vulnerability"],
+    "documentation": "https://docs.wpscan.org/"
+  },
+  {
+    "name": "Enum4linux",
+    "description": "Tool for enumerating information from Windows and Samba systems",
+    "category": "Reconnaissance",
+    "command": "enum4linux",
+    "binary": "enum4linux",
+    "tags": ["windows", "samba", "enum", "smb"],
+    "documentation": "https://github.com/cddmp/enum4linux-ng"
+  },
+  {
+    "name": "Tcpdump",
+    "description": "Powerful command-line packet analyzer",
+    "category": "Sniffing & Spoofing",
+    "command": "tcpdump",
+    "binary": "tcpdump",
+    "tags": ["network", "capture", "packet", "sniff"],
+    "documentation": "https://www.tcpdump.org/manpages/tcpdump.1.html"
+  },
+  {
+    "name": "Arp-scan",
+    "description": "ARP scanning and fingerprinting tool",
+    "category": "Network",
+    "command": "arp-scan",
+    "binary": "arp-scan",
+    "tags": ["network", "arp", "scan", "discovery"],
+    "documentation": "https://github.com/royhills/arp-scan"
+  },
+  {
+    "name": "Cewl",
+    "description": "Custom word list generator by crawling target websites",
+    "category": "Password Auditing",
+    "command": "cewl",
+    "binary": "cewl",
+    "tags": ["wordlist", "password", "crawl", "dictionary"],
+    "documentation": "https://github.com/digininja/CeWL"
+  },
+  {
+    "name": "Fcrackzip",
+    "description": "Fast zip file password cracker",
+    "category": "Password Auditing",
+    "command": "fcrackzip",
+    "binary": "fcrackzip",
+    "tags": ["password", "zip", "crack", "archive"],
+    "documentation": "https://github.com/hdzz/cewl"
+  },
+  {
+    "name": "Zaproxy",
+    "description": "OWASP Zed Attack Proxy - integrated penetration testing tool for finding vulnerabilities in web applications",
+    "category": "Web Security",
+    "command": "zaproxy",
+    "binary": "zaproxy",
+    "tags": ["web", "proxy", "owasp", "vulnerability"],
+    "documentation": "https://www.zaproxy.org/docs/"
+  }
+]
